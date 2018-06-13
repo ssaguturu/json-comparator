@@ -1,0 +1,62 @@
+{
+  "id": "9e49b66e879444aab9969da2051d5a50",
+  "name": "Know Your Numbers",
+  "bullet1": null,
+  "bullet2": null,
+  "bullet3": null,
+  "cost": null,
+  "activities": [
+    {
+      "created_date": 1512350259000,
+      "modified_date": 1512350260000,
+      "id": "f0bab349f9a74920bb700e9afe81e303",
+      "deleted": false,
+      "name": "Activity 1",
+      "criteria": null,
+      "frequency": "YEARLY",
+      "outcome": {
+        "created_date": 1512350259000,
+        "modified_date": 1512350260000,
+        "id": "5c80063d3ae44326be2fc236acafd1cc",
+        "description": "Award an Incentive",
+        "value": 500
+      },
+      "enabled": true,
+      "simpleCriterion": false,
+      "displayOrder": 1,
+      "criteriaType": "ANY_OF",
+      "descriptionTemplate": "Earn points one time each year for completing a biometric screening",
+      "incentiveCapValue": 1,
+      "activityUrl": null
+    }
+  ],
+  "type": null,
+  "category": null,
+  "status": "PUBLISH",
+  "tracker_required": false,
+  "createdDate": 1512350259000,
+  "modifiedDate": 1512350260000,
+  "headerTemplate": "Go to the BioIQ website to schedule your screening. ",
+  "subTitle": "Biometric / health screening",
+  "leadInSentence": "This screening is a short health exam that gives you important information about your risk for certain diseases and medical conditions based on your results for blood pressure, cholesterol, blood sugar, or body mass index. Earn X points each year for completing it.",
+  "howToGetStarted": null,
+  "moreInformation": null,
+  "partnerContactList": [
+    {
+      "id": "70ac5fac141041a3be31eebb7f1c96bc",
+      "callToAction": "Visit1",
+      "contactType": "SSO_URL",
+      "contactInformation": "https://anthemengage1.bioiq.com/",
+      "iosAppStoreLink": null,
+      "iosScheme": null,
+      "androidPackageId": null,
+      "androidAppStoreLink": null,
+      "programId": "0f334d00fa5d479683bec4387597394e",
+      "displayOrder": 1
+    }
+  ],
+  "isTrackerRequired": false,
+  "requiredTrackerType": null,
+  "iconUrl": null,
+  "headerImageUrl": null
+}

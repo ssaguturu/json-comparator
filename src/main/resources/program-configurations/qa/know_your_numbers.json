@@ -1,0 +1,85 @@
+{
+  "id": "0f334d00fa5d479683bec4387597394d",
+  "name": "Know Your Numbers - AK",
+  "bullet1": "Learn more about your BMI, blood glucose levels, and cholesterol ",
+  "bullet2": "See if you're at risk for serious health conditions",
+  "bullet3": "Get practical tips for making healthy lifestyle changes",
+  "cost": "Provided by your employer at no cost to you",
+  "activities": [
+    {
+      "created_date": 1528242411000,
+      "modified_date": 1528242411000,
+      "id": "70b560df199f47348807ba3f45024824",
+      "deleted": false,
+      "name": "Activity 1",
+      "type": "PROGRAM_DATA",
+      "criteria": [
+        {
+          "operator": ">",
+          "aggregator": "LATEST",
+          "dataType": "/biometric/BloodSugarNumberActualmgdL",
+          "targetValue": "0"
+        },
+        {
+          "operator": ">=",
+          "aggregator": "LATEST",
+          "dataType": "/biometric/BodyMassIndex",
+          "targetValue": "10"
+        },
+        {
+          "operator": "!=",
+          "aggregator": "LATEST",
+          "dataType": "/biometric/CholesterolRatio",
+          "targetValue": "0"
+        }
+      ],
+      "frequency": "ANY",
+      "outcome": {
+        "created_date": 1528242411000,
+        "modified_date": 1528242411000,
+        "id": "71fa66c44c4e438aa8b13f1ca225445b",
+        "description": null,
+        "value": 10
+      },
+      "enabled": true,
+      "entityKey": "activity_1_20180605114339110",
+      "simpleCriterion": true,
+      "displayOrder": 1,
+      "criteriaType": "ANY_OF",
+      "descriptionTemplate": "Test biometric",
+      "incentiveCapValue": 1,
+      "activityUrl": null,
+      "contact": null
+    }
+  ],
+  "type": "ALL_OTHER",
+  "category": "Unknown",
+  "status": null,
+  "tracker_required": false,
+  "createdDate": 1527747900000,
+  "modifiedDate": 1527817191000,
+  "entityKey": "know_your_numbers_20180531062500395",
+  "headerTemplate": null,
+  "subTitle": "Biometric screening",
+  "leadInSentence": "Take charge of your health! This screening is a short health exam that can help you:",
+  "howToGetStarted": "Go to the BioIQ website and choose a screening option. Options include attending an onsite event, visiting a lab, or submitting results from a recent physician visit.",
+  "moreInformation": "Test more info",
+  "partnerContactList": [
+    {
+      "callToAction": "Visit",
+      "id1": "70ac5fac141041a3be31eebb7f1c96ba",
+      "contactType": "SSO_URL",
+      "contactInformation": "https://anthemengage.bioiq.com/",
+      "iosAppStoreLink": null,
+      "iosScheme": null,
+      "androidPackageId": null,
+      "androidAppStoreLink": null,
+      "programId": "0f334d00fa5d479683bec4387597394d",
+      "displayOrder": 1
+    }
+  ],
+  "isTrackerRequired": false,
+  "requiredTrackerType": null,
+  "iconUrl": "https://cdn.castlighthealth.com/image/upload/v1526673252/Sample Icon.webp",
+  "headerImageUrl": "https://cdn.castlighthealth.com/image/upload/v1527740002/Program-Benefit_Header-Images/healthcoach2.jpg"
+}
